@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+/*---------global styles starts----------*/
+
+.my-btn {
+  padding: 5px 10px !important;
+  background-color: #ff3553 !important;
+  color: #fff !important;
+  font-size: 20px !important;
+  font-weight: 300 !important;
+  border: 0 !important;
+  outline: none !important;
+  height: 40px !important;
+  cursor: pointer !important;
+}
+
+.my-btn:hover {
+  background-color: #191a1b !important;
+}
+
+/*-------global styles ends--------------*/
+
+/*----------navbar styles starts-------*/
+.navbar {
+  min-height: 80px;
+}
+
+.navbar-brand {
+  font-family: "Bruno Ace SC", cursive !important;
+  color: #000000;
+  font-weight: 800;
+  font-size: 1.7rem;
+}
+
+.navbar-brand span {
+  color: #ef7c8e;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.nav-link {
+  font-weight: 400 !important;
+  cursor: pointer;
+  color: #605c5c !important;
+}
+
+.nav-item:hover {
+  color: #ef7c8e !important;
+}
+
+.navbar li > i {
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.navbar li > i:hover {
+  color: rgba(0, 0, 0, 0.73);
+}
+
+.navbar .active {
+  display: inline-block;
+}
+
+.navbar .active::after {
+  content: "";
+  height: 5px;
+  background: #707070;
+  border-radius: 5px;
+  display: block;
+}
+
+/*----------navbar styles ends-------*/
+
+/*----------Footer styles starts-----*/
+footer h5 {
+  font-family: "Bruno Ace SC", cursive !important;
+  font-size: 1.5rem;
+}
+/*----------Footer styles ends-----*/
+
+/*----------Category Card Styles Starts--------*/
+.categories-list .card {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 14px;
+  height: 7rem !important;
+  width: 16rem !important;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.categories-list .card-title {
+  margin-bottom: 0 !important;
+}
+
+.categories-list .card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 0.2s;
+}
+
+/*----------Category Card Styles Ends----------*/
+
+/*----------HomePage Styles starts----------*/
+.cards-container {
+  padding: 2rem 1rem;
+}
+
+.card.more {
+  height: 5rem !important;
+  width: 14rem !important;
+}
+
+.card.more .card-title {
+  font-size: 1.24rem !important;
+}
+/*----------HomePage Styles ends----------*/
+
+/*----------AuthPage Styles starts----------*/
+.authForm .card {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 14px !important;
+}
+
+.authForm .card-header {
+  border-bottom: none !important;
+  background-color: transparent !important;
+}
+
+.authForm .card-header h3 {
+  font-family: "Bruno Ace SC", cursive !important;
+  font-size: 2rem;
+}
+
+.authForm div .my-btn {
+  margin: 10px 0;
+  width: 100%;
+  font-weight: 400 !important;
+}
+
+.authForm .error {
+  color: red;
+  font-size: 0.9em;
+}
+
+.authForm .card {
+  border-radius: 0 !important;
+}
+
+.authForm .card-header {
+  text-align: center;
+}
+
+.authForm input {
+  border-radius: 0 !important;
+  background: #f5f5f6 !important;
+  border: none !important;
+}
+
+.authForm input:focus {
+  border-color: #ff3553;
+  box-shadow: 0px 0px 5px 0px #ff3553 !important;
+}
+/*----------AuthPage Styles ends----------*/
+
+/*----------ProductsPage style starts-----*/
+.product-card:hover {
+  box-shadow: rgba(208, 208, 208, 1) 0px 1px 5px;
+  transition: 0.2s;
+}
+/*----------ProductsPage style ends-----*/
+
+/*----------ProductDetailPage style starts----------*/
+.product-detail img {
+  width: 500px;
+  height: 500px;
+}
+
+.quantity-btn {
+  font-size: 1.2rem;
+  margin: 0 10px;
+  color: white;
+  border-radius: 20px;
+  padding: 0 6px;
+  cursor: pointer;
+  background-color: #ff3553;
+  border: none;
+}
+
+.quantity-btn:hover {
+  background-color: #191a1b;
+  color: #fff;
+  cursor: pointer;
+}
+/*----------ProductDetailPage style ends----------*/
+
+/*------------SearchPage style starts-----------*/
+form.search-product {
+  background: #f5f5f6 !important;
+  color: #696e79 !important;
+  border-radius: 1.5rem !important;
+}
+
+form.search-product i {
+  font-size: 1.5rem !important;
+}
+
+.search-product .btn:focus {
+  box-shadow: none !important;
+}
+
+form.search-product input {
+  background: transparent !important;
+  outline: none !important;
+  border: none !important;
+  font-size: 1.6rem !important;
+  font-weight: 500 !important;
+}
+
+form.search-product input:focus {
+  outline: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+/*------------SearchPage style ends------------*/
+
+/*--------Add-product-form style starts--------*/
+.add-product-form-container {
+  min-height: calc(100vh - 74px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-product-form-container .form-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 400px;
+  /* min-height: 544px; */
+  box-shadow: rgba(146, 146, 146, 0.35) 0px 5px 10px;
+}
+
+.add-product-form-container .form-wrapper h2 {
+  margin: 30px 0 5px 40px;
+  font-weight: 500;
+}
+
+.add-product-form-container .form-wrapper-body {
+  margin: 10px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.add-product-form-container .form-wrapper-body > div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.add-product-form-container .form-wrapper-body > div > input,
+.add-product-form-container .form-wrapper-body > div > textarea {
+  padding: 5px;
+}
+
+.add-product-form-container .form-wrapper-body > div > textarea {
+  height: 40px;
+}
+
+.add-product-form-container .form-wrapper-body > div > label {
+  font-size: small;
+}
+
+#add-product-btn {
+  padding: 5px 10px;
+  background-color: #ff3553;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  border: 0;
+  outline: none;
+  height: 40px;
+}
+
+#add-product-btn:hover {
+  background-color: #191a1b;
+  cursor: pointer;
+}
+
+.add-product-form-container .warning {
+  color: red;
+  font-size: small;
+}
+
+/*--------Add-product-form style ends--------*/
