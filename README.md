@@ -7,7 +7,7 @@ Create a database named `browsebay`.
 
 Clone project repository.
 ```bash
-git clone https://github.com/dhokiyamansi/BrowseBay
+git clone https://github.com/dhokiyamansi/BrowseBayEcommerce
 ```
 
 Go inside project directory.
